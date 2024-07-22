@@ -1,11 +1,243 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <!-- using google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+    <header>
+        <nav>
+
+            <div class="nav-left">
+                <div class="logo">
+                    <a href=""><img src="./assets/logo.png" width="70px" alt=""></a>
+                </div>
+
+                <ul class="nav-links">
+                    <li><a href="#" class="link active">Home</a></li>
+                    <li><a href="#" class="link ">Projects</a></li>
+                    <li><a href="#" class="link ">About</a></li>
+                    <li><a href="#" class="link ">Services</a></li>
+                    <li><a href="#" class="link ">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="nav-right">
+                <div class="cta-container">
+                    <a href="https://docs.google.com/document/d/1qVudGSthCApP6QgeUducmalK4uJ_gl7qJa1YO96k1zA/edit?usp=sharing"
+                        target="_blank" class="cta-resume">Resume</a>
+                </div>
+
+                <div class="burger-container"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="hero">
+        <div class="hero-lhs hero-hs">
+            <p class="title">Hello i am <span class="primary">Shaikh Shoeb</span></p>
+            <p class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis aliquid corrupti
+                soluta error minima veritatis ut? Tempora molestias quaerat illum deserunt corporis, eveniet, error
+                veniam voluptatibus ipsam sed, non repellat!</p>
+            <p class="skills">also i am <span class="skill">Front-End Developer</span></p>
+            <div class="hero-cta-container">
+                <a href="" class="cta-contactMe">Contact Me</a>
+                <a href="" class="cta-resume">Resume</a>
+            </div>
+        </div>
+        <div class="hero-rhs hero-hs">
+
+        </div>
+    </main>
+
+    <section class="about-section">
+        <div class="heading-container">
+            <p class="heading about-heading">About Me</p>
+            <p class="sub-heading about-subHeading">I am a passionate web developer with a strong background in creating
+                dynamic and responsive websites. With a solid foundation in computer science and hands-on experience in
+                various web technologies, I am dedicated to delivering high-quality solutions that meet client needs.
+            </p>
+        </div>
+        <div class="about-contentContainer">
+            <div class="education skill-card">
+                <p class="about-cardHeading">Education</p>
+                <ul class="education-list">
+                    <li>B.Sc. in Computer Science, XYZ University, 2015-2019</li>
+                    <li>M.Sc. in Web Development, ABC Institute, 2019-2021</li>
+                </ul>
+            </div>
+            <div class="experience skill-card">
+                <p class="about-cardHeading">Experience</p>
+                <ul class="experience-list">
+                    <li>Frontend Developer at Tech Solutions, 2021-Present</li>
+                    <li>Intern at Web Innovators, 2019-2020</li>
+                </ul>
+            </div>
+            <div class="skill-card">
+                <marquee behavior="" direction="">
+                    <ul class="skills-list">
+                        <li class="skillCard-skill HTML">HTML</li>
+                        <li class="skillCard-skill CSS">CSS</li>
+                        <li class="skillCard-skill Javascript">Javascript</li>
+                        <li class="skillCard-skill Reactjs">Reactjs</li>
+                        <li class="skillCard-skill Nodejs">Nodejs</li>
+                        <li class="skillCard-skill Express">Express</li>
+                        <li class="skillCard-skill MongoDB">MongoDB</li>
+                        <li class="skillCard-skill Git">Git & Github</li>
+                        <li class="skillCard-skill UI">UI/UX Design</li>
+                        <li class="skillCard-skill ResponsiveDesign">Responsive Design</li>
+                        <li class="skillCard-skill HTML">HTML</li>
+                        <li class="skillCard-skill CSS">CSS</li>
+                        <li class="skillCard-skill Javascript">Javascript</li>
+                        <li class="skillCard-skill Reactjs">Reactjs</li>
+                        <li class="skillCard-skill Nodejs">Nodejs</li>
+                        <li class="skillCard-skill Express">Express</li>
+                        <li class="skillCard-skill MongoDB">MongoDB</li>
+                        <li class="skillCard-skill Git">Git & Github</li>
+                        <li class="skillCard-skill UI">UI/UX Design</li>
+                        <li class="skillCard-skill ResponsiveDesign">Responsive Design</li>
+                    </ul>
+                </marquee>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="experience-section">
+        <div class="heading-container">
+            <p class="heading experience-heading">Experience</p>
+        </div>
+        <div class="experience-container">
+            <div class="experience-card">
+                <div class="experience-image">
+                    <img src="./assets/Image 20.png" alt="">
+                </div>
+                <p class="company">Diamond wedding Card</p>
+                <p class="position">Graphic Designer <span class="duration">2021-2022</span></p>
+            </div>
+            <div class="experience-card">
+                <div class="experience-image">
+                    <img src="./assets/Image 20 (1).png" alt="">
+                </div>
+                <p class="company">Diamond wedding Card</p>
+                <p class="position">Graphic Designer <span class="duration">2021-2022</span></p>
+            </div>
+            <div class="experience-card">
+                <div class="experience-image">
+                    <img src="./assets/Image 20 (2).png" alt="">
+                </div>
+                <p class="company">Diamond wedding Card</p>
+                <p class="position">Graphic Designer <span class="duration">2021-2022</span></p>
+            </div>
+        </div>
+    </section>
+
+    <section class="project-section">
+        <div class="heading-container">
+            <p class="heading project-heading">Projects</p>
+        </div>
+        <div class="project-container">
+            <div class="project-card">
+                <div class="project-info">
+                    <p class="project-name">Weather App</p>
+                    <p class="project-desc">A real-time weather forecasting application using React and OpenWeather
+                        API.</p>
+                    <div class="cta-container">
+                        <a href="" class="cta-viewProject">View Project</a>
+                        <a href="" class="cta-sourceCode">View Source Code</a>
+                    </div>
+                </div>
+                <div class="project-image">
+                    <img src="./assets/Image 135 (1).png" alt="">
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-info">
+                    <p class="project-name">Portfolio Website</p>
+                    <p class="project-desc">Created a responsive portfolio website with a modern design, showcasing
+                        various projects and professional experiences.</p>
+                    <div class="cta-container">
+                        <a href="" class="cta-viewProject">View Project</a>
+                        <a href="" class="cta-sourceCode">View Source Code</a>
+                    </div>
+                </div>
+                <div class="project-image">
+                    <img src="./assets/Image 135 (2).png" alt="">
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-info">
+                    <p class="project-name">Blog Platform</p>
+                    <p class="project-desc">Designed and developed a blog platform with features like post creation,
+                        commenting, and user profiles.</p>
+                    <div class="cta-container">
+                        <a href="" class="cta-viewProject">View Project</a>
+                        <a href="" class="cta-sourceCode">View Source Code</a>
+                    </div>
+                </div>
+                <div class="project-image">
+                    <img src="./assets/Image 135 (3).png">
+                </div>
+            </div>
+        </div>
+    </section>
     
+    <footer class="footer">
+        <div class="heading-container">
+            <p class="heading about-heading">Contact</p>
+            <p class="sub-heading about-subHeading">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur autem fugit facilis atque deleniti animi, perspiciatis distinctio mollitia cumque sint esse quam incidunt excepturi ipsum facere aspernatur. Maiores, ea perferendis?</p>
+        </div>
+        <div class="footer-container">
+            <form action="" class="input-container">
+                <img src="./assets/icons/mail.svg" alt="">
+                <input type="email" name="" id="" placeholder="Enter Your Email">
+                <a href="">Submit</a>
+            </form>
+            <div class="footer-nav">
+                <div class="logo-container">
+                    <img src="./assets/logo.png" alt="">
+                </div>
+
+                <ul class="footer-navLinks">
+                    <li><a href="/home">Home</a></li>
+                    <li><a href="/home">Projects</a></li>
+                    <li><a href="/home">About</a></li>
+                    <li><a href="/home">Services</a></li>
+                    <li><a href="/home">Contact</a></li>
+                </ul>
+            </div>
+            <hr>
+            <div class="footer-end">
+                <select  name="" id="">
+                    <option value="">English</option>
+                    <option value="">Urdu</option>
+                    <option value="">Hindi</option>
+                </select>
+
+                <p class="copyright">© 2024 ASA.Company. • Privacy • Terms • Sitemap</p>
+
+                <div class="social-container">
+                    <img class="social" src="./assets/icons/facebook.svg" alt="">
+                    <img class="social" src="./assets/icons/youtube.svg" alt="">
+                    <img class="social" src="./assets/icons/twitter.svg" alt="">
+                    <img class="social" src="./assets/icons/linkedin.svg" alt="">
+                    <img class="social" src="./assets/icons/instagram.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
 </body>
+
 </html>
